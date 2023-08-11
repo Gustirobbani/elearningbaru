@@ -74,11 +74,6 @@
 
     <!-- Start Greeting Cards -->
     <div class="container">
-        <div class="bg-white mx-auto p-4 buat-text" data-aos="fade-down" data-aos-duration="1400" style="width: 100%; border-radius:10px;">
-            <div class="row" style="color: black; font-family: 'poppins';">
-                <div class="col-md-12 mt-1 ml-4">
-                    <h1 class="display-4" style="color: black; font-family:'poppins';" data-aos="fade-down" data-aos-duration="1400">Selamat Belajar
-                    </h1>
                     <h4 data-aos="fade-down" data-aos-duration="1700"><?php
                             $data['user'] = $this->db->get_where('siswa', ['email' =>
                             $this->session->userdata('email')])->row_array();
@@ -86,11 +81,6 @@
                             ?> - TPQ Muslimat Al-Quthubi</h3>
                         <p><?= $detail->nama_mapel ?> - Kelas <?= $detail->kelas ?></p>
                         <hr align="left" width="600;">
-                        <p style="line-height: 3px;">Kita akan mempelajari tentang</p>
-                        <p class="font-weight-bold mt--5">
-                            <?= substr($detail->deskripsi, 0, 120); ?>
-
-                        </p>
                 </div>
             </div>
         </div>

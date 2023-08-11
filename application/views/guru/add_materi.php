@@ -273,19 +273,7 @@ echo $data['user']['nama_guru'];
 
                                 <!--begin: Navigation -->
                                 <div class="kt-notification">
-                                    <a href="#" class="kt-notification__item">
-                                        <div class="kt-notification__item-icon">
-                                            <i class="flaticon2-hourglass kt-font-brand"></i>
-                                        </div>
-                                        <div class="kt-notification__item-details">
-                                            <div class="kt-notification__item-title kt-font-bold">
-                                                Tambah data materi
-                                            </div>
-                                            <div class="kt-notification__item-time">
-                                                Tambah Materi Learnify
-                                            </div>
-                                        </div>
-                                    </a>
+                                 
                                     <div class="kt-notification__custom">
                                         <a href="<?=base_url('welcome/logout')?>"
                                             class="btn btn-label-brand btn-sm btn-bold">Log Out</a>
@@ -397,7 +385,7 @@ echo $data['user']['nama_mapel'];?>" class="form-control" id="inputEmail4">
                                             <option value="XII">Kelas C</option>
                                         </select>
                                     </div>
-                                    <button type="submit" class="btn btn-success">Tambah materi</button>
+                                    <button type="submit" class="btn btn-success"  style="background-color: orange;">Tambah materi</button>
                             </div>
                         </div>
 

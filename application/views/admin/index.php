@@ -206,15 +206,6 @@
                         </div>
                     </div>
                     <div class="">
-                        <div class="card" style="width:100%;">
-                            <div class="card-body">
-                                <h2 class="card-title" style="color: black;">Tambah Materi?</h2>
-                                <hr>
-                                <p class="card-text">Menambah materi bisa melalui admin jika para guru berhalangan mengisi kelas yang sudah di jadwalkan</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="">
                         <div class="hero text-white hero-bg-image" data-background="<?= base_url('assets/') ?>img/banner5.jpg">
                             <div class=" hero-inner">
                                 <h1>Selamat Datang, <?php

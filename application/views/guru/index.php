@@ -273,19 +273,7 @@ echo $data['user']['nama_guru'];
 
                                 <!--begin: Navigation -->
                                 <div class="kt-notification">
-                                    <a href="<?=base_url('guru/add_materi')?>" class="kt-notification__item">
-                                        <div class="kt-notification__item-icon">
-                                            <i class="flaticon2-hourglass kt-font-brand"></i>
-                                        </div>
-                                        <div class="kt-notification__item-details">
-                                            <div class="kt-notification__item-title kt-font-bold">
-                                                Tambah data materi
-                                            </div>
-                                            <div class="kt-notification__item-time">
-                                                Tambah Materi Learnify
-                                            </div>
-                                        </div>
-                                    </a>
+                                 
                                     <div class="kt-notification__custom">
                                         <a href="<?=base_url('welcome/logout')?>"
                                             class="btn btn-label-brand btn-sm btn-bold">Log Out</a>
@@ -310,7 +298,7 @@ echo $data['user']['nama_guru'];
                         <div class="kt-subheader__main">
                             <h1 class="kt-subheader__title font-weight-bold"
                                 style="font-size: 33px !important; letter-spacing:-1px; line-height:3px;">
-                                Dashboard </h1>
+                                Dashboard Ustadz </h1>
                         </div>
                         <div class="kt-subheader__toolbar">
                             <div class="kt-subheader__wrapper">
@@ -356,11 +344,11 @@ echo $data['user']['nama_guru'];
                                 <div class="kt-portlet kt-portlet--height-fluid kt-widget19">
                                     <div class="kt-portlet__body kt-portlet__body--fit">
                                         <div class="kt-widget19__pic kt-portlet-fit--top kt-portlet-fit--sides">
-                                            <img src="<?=base_url('assets/')?>img/user.png" class=" img-fluid" alt=""
+                                            <img src="<?=base_url('assets/')?>img/banner7.jpg" class=" img-fluid" alt=""
                                                 srcset="">
                                             <h1 class="kt-widget19__title kt-font-light display-4 font-weight-bold"
                                                 style="letter-spacing: -1px;">
-                                                Selamat Datang, <?php
+                                                Selamat Datang, Ustadz <?php
 $data['user'] = $this->db->get_where('guru', ['email' =>
     $this->session->userdata('email')])->row_array();
 echo $data['user']['nama_guru'];
@@ -398,11 +386,7 @@ echo $data['user']['nama_guru'];
                                                 Selamat Bekerja :)
                                             </div>
                                         </div>
-                                        <div class="kt-widget19__action">
-                                            <a href="#" class="btn btn-sm btn-label-brand btn-bold">Tambah Materi</a>
-
-
-                                        </div>
+                                     
                                     </div>
                                 </div>
 

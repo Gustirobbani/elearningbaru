@@ -101,14 +101,9 @@
 
     <!-- Start Greetings Card -->
     <div class="container">
-        <div class="bg-white mx-auto p-4 buat-text" data-aos="fade-down" data-aos-duration="1400" style="width: 100%; border-radius:10px;">
-            <div class="row" style="color: black; font-family: 'poppins';">
-                <div class="col-md-12 mt-1">
                     <h1 class="display-4" style="color: black; font-family:'poppins';" data-aos="fade-down" data-aos-duration="1400">Masuk ke kelas<span style="font-size: 40px;">
                         </span> </h1>
-                    <p>Hello Santri !  Ini merupakan halaman utama e-learning TPQ Muslimat Al-Quthubi ! Silahkan pilih kelas yang akan kamu
-                        akses
-                        dan pilih mata pelajaran yang ingin kamu pelajari. Selamat belajar ya</p>
+                    <p></p>
                     <hr>
                     <h4 style="line-height: 4px;" data-aos="fade-down" data-aos-duration="1700">
                                                                                                  TPQ Muslimat Al-Quthubi</h3>

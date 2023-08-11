@@ -13,9 +13,9 @@ class M_materi extends CI_Model
     }
 
     public function getKolomKomentar()
-{
-    return $this->db->select('komen, nama, nama_hafalan')->get('komentar')->result();
-}
+	{
+		return $this->db->select('komen, nama, nama_hafalan')->get('komentar')->result();
+	}
 
     public function belajar($id = null)
     {
