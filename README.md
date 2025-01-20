@@ -1,4 +1,4 @@
-<h1 align="center">Selamat datang di repository Learnify! 👋🏻</h1>
+<h1 align="center">Selamat datang di repository E-Learning TPQ! 👋🏻</h1>
 
 
 <p></p>
@@ -28,7 +28,7 @@
 
 <p></p>
 
-<h2 id="tentang">👨🏻‍🏫 Tentang Learnify</h2>
+<h2 id="tentang">👨🏻‍🏫 Tentang E-Learning TPQ</h2>
 
 Website edukasi yang dibuat dalam rangka mengatasi solusi pembelajaran tpq muslimat al-quthubi, learnify dibuat agar para santri dan ustadz dapat terus belajar dan mengajar dimana saja dan kapan saja.
 
