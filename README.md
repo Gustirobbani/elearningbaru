@@ -1,6 +1,5 @@
 <h1 align="center">Selamat datang di repository Learnify! 👋🏻</h1>
 
-![learnify-preview]()
 
 <p></p>
 
