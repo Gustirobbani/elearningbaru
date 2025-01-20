@@ -1,6 +1,6 @@
 <h1 align="center">Selamat datang di repository Learnify! 👋🏻</h1>
 
-![learnify-preview](https://user-images.githubusercontent.com/46257169/173141000-0a2346bf-adbc-41cb-9699-e7ffff1cba8e.png)
+![learnify-preview]()
 
 <p></p>
 
